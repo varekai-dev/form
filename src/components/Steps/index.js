@@ -5,7 +5,7 @@ import Step3 from "./Step3/Step3";
 import { Context } from "../Context/Context";
 
 function Steps() {
-  const { state, setState } = useContext(Context);
+  const { state } = useContext(Context);
 
   const { step } = state;
 

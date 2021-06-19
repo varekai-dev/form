@@ -5,7 +5,7 @@ import Button from "../../Button/Button";
 import { Context } from "../../Context/Context";
 
 function Step1() {
-  const { state, setState, nextStep } = useContext(Context);
+  const { state, setState } = useContext(Context);
   const list = [
     {
       title: "Homeowner",
